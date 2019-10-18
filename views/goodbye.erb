@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <% name = "Joe" %>
-  <head>
-    
-    <title>
-      
-    </title>
-      
-  </head>
   
-  <body> 
-    <h1>Goodbye, </h1>
-  </body>
+  <ul>
+    <% name = "Joe" %>
+    <% name.each do |n| %>
+      <li><%= n %></li>
+    <% end %>
+  </ul>
   
 </html>
